@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta chartset="utf-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="logo.png"/>
+  <style>
+    .bill{
+        width:100% ; 
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        background: white;
+        width: 800px;
+        padding: 30px;
+        font-size: 10px;
+    }
+    .message-icon span{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    form input, textarea{
+        width: 100%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid #26244d;
+        outline: none;
+    }
+    #input-field{
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+    }
+    #input-field i{
+        font-size: 18px;
+        margin-right:15px ;
+    }
+    .enter-btn{
+        width: 100px;
+        border: none;
+        background: #2b2a58;
+        color: white;
+        font-size: 16px;
+        padding: 5px 0;
+        border-radius: 20px;
+    }
+    .radio{
+        display: flex;
+    }
+    p{
+        font-size: 15px;
+        padding-bottom:10px ;
+    }
+    h6{
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    label{
+        font-size:  17px;
+        padding-bottom: 10px; 
+    }
+    select{
+        padding-bottom: 5px;
+    }
+    
+  </style>
+    
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Movies.html">Movies</a></li>
+                    <li><a href="Tv-shows.html">Tv shows</a></li>
+                    <li><a href="Games.html">Games & Apps</a></li>
+                    <li><a href="collections.html">Collection</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section class="bg"></section>
+    <div class="wrapper">
+        <section id="main">
+            <!--showcase------->
+            <!--heading-------->
+           
+            <h2 class="showcase-heading">Feedback</h2>
+
+         
+        </section>
+        <div class="bill">
+            <form action="">
+                <div class="message-icon">
+                    <i class="bi bi-tell"></i>
+                    <span>Feedback message</span>
+                    <p>We kindly would love to hear from you and hope the user interface is of you comforts and interest.</p>
+                </div>
+                <h6>Are you enjoying the user experience</h6>
+                    <select>
+                       <option>Yes</option>
+                       <option>No</option>
+                    </select>               
+                <h6>Feedback type</h6>
+                    
+                <div class="radio">
+                    <br>
+                        <label>Comments</label>
+                        <input type="radio" name="Statements" value="Comments">
+                    <br>
+                        <label>Suggestions</label>
+                        <input type="radio" name="Statements" value="Suggestions">
+                    <br>
+                        <label>Questions</label>
+                        <input type="radio" name="Statements" value="Questions">
+                </div>
+                <div id="input-section">
+                    <i class="bi bi-person"></i>
+                    <textarea name="Message" placeholder="Message" rows="10"></textarea>
+                </div>
+                    <input type="submit" value="Submit" class="enter-btn">
+            </form>
+        </div>
+    </div>
+     <footer>
+        <div class="container">
+            <div class="sec aboutus">
+                <h4>Follow Us on</h4>
+                <ul class="sci">
+                    <li><a href="https://web.facebook.com/warnerbrosent/?_rdc=1&_rdr">FaceBook</a></li>
+                    <li><a href="https://twitter.com/Warnerbros/">Twitter</a></li>
+                    <li><a href="https://www.pinterest.com/warnerbrosent/">Pintrest</a></li>
+                    <li><a href="https://www.instagram.com/warnerbrosentertainment/">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/warner-bros--entertainment/">Linkedin-in</a></li>
+                    <li><a href="https://www.youtube.com/user/WarnerBrosPictures">YouTube</a></li>
+                </ul>
+            </div>
+            <div class="sec quicklink">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Press Release</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">International</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="sec quicklink">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Sourced Traffic Disclosure</a></li>
+                    <li><a href="#">Ad Choices</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Cookie Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <h4>Copyright 2023, All rights reserved @WarnerBros </h4>
+    </div>
+</body>
+</html>
