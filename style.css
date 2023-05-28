@@ -20,11 +20,6 @@ h2{
 body{
     background-color: #213a5c;
 }
-/*/header{
-    height:90px;
-    background:#262626;
-    padding:0 50px;
-    }/*/
 .logo{
     width:30%;
     float:left;
@@ -112,7 +107,7 @@ h1{
 }
 .image-contain{
     margin: auto;
-    width: 925px;
+    width: 755px;
     height: 520px;
 }
 .image-contain img{
